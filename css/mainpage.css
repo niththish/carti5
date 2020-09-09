@@ -1,0 +1,38 @@
+.section1{
+    height: 90vh;
+    width: 100%;
+    background: url('cart.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-clip: content-box;
+    background-size: cover;
+}
+.search{
+    background-color:  #9457FF;
+    border: none;
+    color:#fff;
+    width: 150px;
+    
+    border-radius: 10px;
+}
+.section2{
+    height: 100vh;
+    width: 100%;
+}
+.sectionrow{
+    height: 100vh;
+}
+
+
+@media only screen and (max-width: 700px) {
+    .section1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .mediastyle{
+        text-align: center;
+    
+    }
+  }
+  

@@ -1,0 +1,10 @@
+<div class='container'>
+    <h5 CLASS='mt-3 text-center'>TELEVISION BLOGS</h5>
+    <hr>
+
+    <ul class="list-group list-group-flush mb-3">
+        <li class="list-group-item" ng-repeat='data in televisionData'>
+            <a class='text-dark' ui-sref='televisions({id:$index})'><h6>{{$index+1}}. {{data.title}}</h6></a>
+        </li>  
+    </ul>
+</div>

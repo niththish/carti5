@@ -1,0 +1,77 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css/style.css">
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <body ng-app='carti5App'>
+
+        <!-- Header -->
+        <nav class="navbar navbar-expand-sm navbar-dark  navcolor">
+            <div class='container'>
+
+                <a class="navbar-brand" href="#">CATI5</a>
+
+                <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                 </button>
+            
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+
+                    <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+
+                        <li class="nav-item ">
+                            <a class="nav-link text-white" ui-sref="about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" ui-sref="contact">Contact</a>
+                        </li>
+
+                    </ul>
+                
+                </div>
+            </div>
+        </nav>
+        
+
+        
+            <ui-view></ui-view>
+        
+       
+        <!-- Footer -->
+        <footer class='navcolor'>
+                <p class=' pt-2 text-center'>For Quires mail :- arivumathi4488@gmail.com</p>
+        </footer>
+
+        <!--Angular library files-->
+        <script src="lib/angular.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/1.0.28/angular-ui-router.min.js" integrity="sha512-2DoNBBUJq5Wr+Uhjgol+uvmHtxOgrtG1QjuDHltKMdtIiVEhujUi0eb/X21P+P0V9zgXKA/lOKCSq7wj5VYc5A==" crossorigin="anonymous"></script>
+    
+        <!--Angularjs src files-->
+        <script src="src/carti5.module.js"></script>
+        <script src='src/carti5.routes.js'></script>
+        <script src="src/mainComponent.js"></script>
+        
+        <script src="src/carti5.smartphones.js"></script>
+        <script src="src/carti5.televisions.js"></script>
+        <script src="src/carti5.laptops.js"></script>
+        <script src='src/carti5.households.js'></script>
+        <script src="src/carti5.otherelectronics.js"></script>
+        <script src="src/carti5.others.js"></script>
+
+        <script src="src/smartphoneparticularComponent.js"></script>
+        <script src="src/tvparticularComponent.js"></script>
+        <script src="src/laptopparticularComponent.js"></script>
+        <script src="src/householdparticularComponent.js"></script>
+        <script src="src/otherelectronicparticularComponent.js"></script>
+        <script src="src/otherparticularComponent.js"></script>
+        
+        <!-- JS, Popper.js, and jQuery -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    
+    </body>
+</html>
